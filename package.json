@@ -30,6 +30,7 @@
   "dependencies": {
     "@sheet/core": "file:./vendor/sheet-core-1.20211011.1.tgz",
     "@types/node": "^18.7.15",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.23.0",
     "eslint-config-airbnb": "^19.0.4",
