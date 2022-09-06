@@ -1,5 +1,5 @@
 {
-  "name": "sheetjs",
+  "name": "@sponsorcx/sheetjs-utils",
   "version": "0.0.0",
   "description": "SheetJS utilities",
   "main": "./lib/src/index.js",
