@@ -2,7 +2,8 @@
   "name": "@sponsorcx/sheetjs-utils",
   "version": "0.0.1",
   "description": "SheetJS utilities",
-  "main": "./lib/src/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
