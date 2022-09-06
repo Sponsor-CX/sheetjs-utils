@@ -1,0 +1,18 @@
+import SheetJS, { Style, WorkSheet } from '@sheet/core';
+export declare const append: (sheetA: SheetJS.WorkSheet, sheetB: SheetJS.WorkSheet) => void;
+export declare const formulaCellByValue: (sheet: SheetJS.WorkSheet, formula: string, valueToStyle: string) => void;
+export declare const formulaCol: (sheet: SheetJS.WorkSheet, formula: string, col: number) => void;
+export declare const formulaRow: (sheet: SheetJS.WorkSheet, formula: string, row: number) => void;
+export declare const formulaAll: (sheet: SheetJS.WorkSheet, format: string) => void;
+export declare const formatCellByValue: (sheet: SheetJS.WorkSheet, format: string, valueToStyle: string) => void;
+export declare const formatCol: (sheet: SheetJS.WorkSheet, format: string, col: number) => void;
+export declare const formatRow: (sheet: SheetJS.WorkSheet, format: string, row: number) => void;
+export declare const formatAll: (sheet: SheetJS.WorkSheet, format: string) => void;
+export declare const styleCellByValue: (sheet: SheetJS.WorkSheet, style: Style, valueToStyle: string) => void;
+export declare const styleCol: (sheet: SheetJS.WorkSheet, style: Style, col: string) => void;
+export declare const styleRow: (sheet: SheetJS.WorkSheet, style: Style, row: number) => void;
+export declare const styleAll: (sheet: SheetJS.WorkSheet, style: Style) => void;
+export declare const removeCol: (sheet: SheetJS.WorkSheet, col: string) => void;
+export declare const removeRow: (sheet: SheetJS.WorkSheet, row: number) => void;
+export declare const insertRow: (sheet: SheetJS.WorkSheet, rows: SheetJS.WorkSheet, rowNumber: number) => void;
+export declare const styleRoot: (ws: WorkSheet) => void;
