@@ -27,8 +27,5 @@ jspm_packages/
 .env.production.local
 .env.local
 
-# build files
-build/
-
 # sheetjs
 vendor/
